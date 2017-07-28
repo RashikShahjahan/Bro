@@ -3,4 +3,7 @@
     <item name="imageView" type="id" />
     <item name="name_text_view" type="id" />
     <item name="details_text_view" type="id" />
+    <item name="content" type="id" />
+    <item name="input" type="id" />
+    <item name="save" type="id" />
 </resources>

@@ -7,13 +7,10 @@ import android.content.pm.PackageManager;
 
 import java.util.List;
 
-/**
- * Created by ABM Shahjahan on 2017-06-02.
- */
 
 public class appOpener {
 
-    public String getPackNameByAppName(Context context, String name) {
+    public String getPackName(Context context, String name) {
         PackageManager pm = context.getPackageManager();
         List<ApplicationInfo> l = pm.getInstalledApplications(PackageManager.GET_META_DATA);
         String packName = "";
