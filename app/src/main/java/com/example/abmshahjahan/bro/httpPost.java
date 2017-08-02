@@ -59,8 +59,7 @@ public class httpPost extends Activity {
         // Get user defined values
 
         Input         = input.getText().toString();
-        appOpener opn = new appOpener();
-        Input         = opn.getPackName(this,Input);
+        
 
 
         // Create data variable for sent values to server
